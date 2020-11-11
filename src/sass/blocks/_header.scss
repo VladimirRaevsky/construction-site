@@ -4,6 +4,10 @@
     height: 96px;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: #fff;
     &_nav {
         display: flex;
         align-items: center;

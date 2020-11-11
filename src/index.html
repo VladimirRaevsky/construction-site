@@ -10,25 +10,26 @@
     
 </head>
 <body>
+
     <section class="header">
             <div class="header-logo">
                 <img src="icons/logo.svg" alt="logo">
             </div>
             <div class="header_nav">
                 <ul class='nav__list'>
-                    <li><a href="##" class='nav__link nav__link-active'>Главная</a></li>
-                    <li><a href="##" class='nav__link'>О нас</a></li>
-                    <li><a href="##" class='nav__link'>Продукция</a></li>
-                    <li><a href="##" class='nav__link'>Процесс</a></li>
-                    <li><a href="##" class='nav__link'>Надёжность</a></li>
-                    <li><a href="##" class='nav__link'>Клиенты</a></li>
-                    <li><a href="##" class='nav__link'>Связаться с нами</a></li>
+                    <li><a href="#header" class='nav__link nav__link-active'>Главная</a></li>
+                    <li><a href="#info" class='nav__link'>О нас</a></li>
+                    <li><a href="#we" class='nav__link'>Продукция</a></li>
+                    <li><a href="#delivery" class='nav__link'>Процесс</a></li>
+                    <li><a href="#reliability" class='nav__link'>Надёжность</a></li>
+                    <li><a href="#services" class='nav__link'>Клиенты</a></li>
+                    <li><a href="#footer" class='nav__link'>Связаться с нами</a></li>
                 </ul>
                 <button class="button nav-button">Заказать демо</button>
             </div>
     </section>
 
-    <section class="promo">
+    <section id="header" class="promo">
         <h1 class="title title_fz48 promo-title">
             Умная доставка материалов для сложных строительных площадок
         </h1>
@@ -109,14 +110,14 @@
                 <div class="wrapper-img">
                     <img src="icons/Rectangle5.svg" alt="Rectangle.img">
                 </div>
-                <div class="wrapper-img wrapper-img__item">
+                <div id="info" class="wrapper-img wrapper-img__item">
                     <img src="icons/Rectangle6.svg" alt="Rectangle.img">
                 </div>
             </div>
         </div>
 
         <div class="construction construction-wrapper">
-            <h2 class="title title_fz32">Что такое СтройКонтроль?</h2>
+            <h2  class="title title_fz32">Что такое СтройКонтроль?</h2>
             <div class="construction__descr">
                 СтройКонтроль - это интеллектуальная система управления доставкой,<br>
                 предоставляющая информацию и контроль материалов на сложных строительных<br>
@@ -163,8 +164,8 @@
                 <img src="icons/img/control.png" alt="control.img">
             </div>
         </div>
-        
-        <div class="delivery">
+        <div id="delivery"></div>
+        <div  class="delivery">
             <div class="container">
                 <h2 class="title title_fz32">Доставка стала проще</h2>
                 <div class="delivery__descr">
@@ -284,7 +285,7 @@
                 </div> 
                 <p>...<span class='delivery__text'>и все остальные материалы</span>,которые поступают или покидают вашу площадку</p>
                 <!--wrapper -->
-
+                <div id="reliability"></div>
                 <div class="reliability">
                     <div class="reliability-title">
                         <div class="title title_fz32">Надёжность</div>
@@ -410,7 +411,7 @@
         </div>
     </section>
 
-    <section class="services">
+    <section id="services" class="services">
         <div class="container">
             <div class="services__wrapper">
                 <div class="services__info">
@@ -465,8 +466,9 @@
         <!-- container -->
     </section>
 
+
     <section class="we">
-        <div class="title title_fz32">Почему нужно выбрать нас?</div>
+        <div id="we" class="title title_fz32">Почему нужно выбрать нас?</div>
         <div class="subtitle we__subtitle">В строительной логистике всегда есть возможности для улучшения.</div>
         <div class="we__wrapper">
             <div class="we__wrapper--items">
@@ -576,7 +578,8 @@
             </div>
         </div>
     </section>
-    <section class="footer">
+
+    <section id="footer" class="footer">
         <div class="container">
             <div class="footer__wrapper">
                 <div class="footer__adress">
