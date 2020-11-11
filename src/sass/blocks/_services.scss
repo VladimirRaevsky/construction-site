@@ -1,0 +1,102 @@
+.services {
+    padding: 151px 0 92px 0;
+    
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        text-align: left;
+        position: relative;
+    }
+    &__descr {
+        font-size: 20px;
+        line-height: 32px;
+        color: #72787D;
+    }
+    &__img {
+        margin-top: 60px;
+    }
+    &__info {
+        width: 462px;
+    }
+    &__list {
+        width: 520px;
+        padding-left: 72px;
+        position: relative;
+        &--title {
+            font-size: 17px;
+            line-height: 24px;
+            position: relative;
+        }
+        &--descr {
+            margin-top: 10px;
+            font-size: 16px;
+            line-height: 24px;
+            color: #72787D;
+        }
+    }
+    &__title-1 {
+        &::before {
+            content:'1';
+            position: absolute;
+            line-height: 19px;
+            color: #72787D;
+            left: -55px;
+            top: 50%;
+        }
+    }
+    &__title-2 {
+        &::before {
+            content:'2';
+            position: absolute;
+            line-height: 19px;
+            color: #72787D;
+            left: -55px;
+            top: 50%;
+        }
+    }
+    &__title-3 {
+        &::before {
+            content:'3';
+            position: absolute;
+            line-height: 19px;
+            color: #72787D;
+            left: -55px;
+            top: 50%;
+        }
+    }
+    &__title-4 {
+        &::before {
+            content:'4';
+            position: absolute;
+            line-height: 19px;
+            color: #72787D;
+            left: -55px;
+            top: 50%;
+        }
+    }
+    &__item:not(:first-child) {
+        margin-top: 30px;
+    }
+    &__item {
+
+        &::before {
+            content:'';
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            border: 1px solid #DADEDF;
+            left: 0;
+        }
+    }
+    &__button {
+        margin-top: 30px;
+        width: 331px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__button-black {
+        color: #FFFFFF;
+    }
+}

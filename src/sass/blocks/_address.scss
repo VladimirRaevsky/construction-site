@@ -1,0 +1,69 @@
+.footer {
+    padding-top: 150px;
+    &__wrapper {
+        height: 205px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__adress--street {
+        margin-top: 22px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #72787D;
+    }
+    &__adress--email {
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #72787D;
+    }
+    &__adress--soсial {
+        margin-top: 20px;
+    }
+    &__product--text {
+        margin-top: 22px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #72787D;
+        p:last-child {
+            margin-top: 8px;
+        }
+    }
+    &__service--text {
+        margin-top: 22px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #72787D;
+        p:last-child {
+            margin-top: 8px;
+        }
+    }
+    &__company--text {
+        margin-top: 22px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #72787D;
+        p:last-child {
+            margin-top: 8px;
+        }
+    }
+    &__footer {
+        margin-top: 160px;
+        height: 90px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid #DADEDF;
+
+        &--rights {
+            font-size: 16px;
+            line-height: 24px;
+            color: #72787D;
+        }
+        &--confidentiality {
+            font-size: 16px;
+            line-height: 24px;
+            color: #72787D;
+        }
+    }
+}

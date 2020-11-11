@@ -1,0 +1,96 @@
+.we {
+    width: 1150px;
+    margin: 0 auto;
+
+    &__subtitle {
+        margin-top: 17px;
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+        color: #212B31;
+    }
+    &__wrapper {
+        margin-top: 55px;
+        display: flex;
+        justify-content: space-between;
+
+        &--items {
+            width: 458px;
+        }
+    }
+    &__awards {
+        display: flex;
+
+        &--img {
+            margin-right: 16px;
+        }
+
+        .descr {
+            font-size: 16px;
+            line-height: 24px;
+            color: #72787D;
+            margin-top: 10px;
+        }
+    }
+    &__awards:not(:first-child) {
+        margin-top: 30px;
+    }
+    &--wrapper--img {
+        position: relative;
+        img {
+            position: absolute;
+            margin-top: -15px;
+            left: 1px;
+        }
+    }
+    &__info {
+        background: #F6F8F9;
+        border-radius: 5px;
+        width: 614px;
+        padding: 45px 92px 56px 41px;
+        position: relative;
+
+        &--wrapper {
+            padding-left: 47px;
+        }
+        p {
+            font-size: 30px;
+            line-height: 48px;
+            color: #212B31;
+            margin: 0;
+            width: 435px;
+        }
+        &--item {
+            display: flex;
+            margin-top: 28px;
+            align-items: center;
+
+            &-img {
+                margin-right: 8px;
+            }
+            .subtitle {
+                line-height: 19px;
+                color: #212B31;
+            }
+            .descr {
+                line-height: 19px;
+                color: #72787D;
+            }
+        }
+    }
+    &__circle {
+        width: 24px;
+        display: flex;
+        margin-top: 28px;
+        justify-content: space-between;
+        span {
+            width: 8px;
+            height: 8px;
+            background: rgba(3, 111, 199, 0.2);
+            border-radius: 8px;
+        }
+    }
+    .we__circle--active {
+        background: #036FC7;
+    }
+}

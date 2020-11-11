@@ -1,0 +1,30 @@
+.achievements {
+    padding-top: 149px;
+    &__wrapper {
+        margin: 0 auto;
+        width: 672px;
+        height: 443px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 201px);
+        column-gap: 33px;
+        row-gap: 41px;
+    }
+    &__item {
+        height: 201px;
+        width: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        img {
+            margin: 0 auto;
+            display: block;
+        }
+        p {
+            text-align: center;
+            margin: 0;
+        }
+    }
+    &__item:last-child {
+        grid-column: 2;
+    }
+}

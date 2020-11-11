@@ -1,0 +1,41 @@
+.reliability {
+    margin-top: 124px;
+    .subtitle {
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+        color: #72787D
+    }
+    &-info {
+        margin-top: 48px;
+    }
+    &-title {
+        position: relative;
+        &--img {
+            position: absolute;
+            top: -20px;
+            right: 397px;
+        }
+    }
+    &-title18 {
+        margin-top: 19px;
+        text-align: center;
+    }
+    &-footer {
+        margin-top: 62px;
+        display: flex;
+        padding: 40px;
+        background: #F6F8F9;
+        border-radius: 5px;
+        align-items: center;
+    }
+    &-descr {
+        margin-left: 27px;
+        font-size: 18px;
+        line-height: 32px;
+        color: #212B31;
+    }
+    &-btn {
+        margin-left: 68px;
+    }
+}

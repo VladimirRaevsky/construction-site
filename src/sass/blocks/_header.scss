@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    padding: 20px 30px;
+    height: 96px;
+    align-items: center;
+    justify-content: space-between;
+    &_nav {
+        display: flex;
+        align-items: center;
+    }
+    .nav__list {
+        list-style: none;
+        margin: 0;
+        display: flex;
+    }
+    .nav__link {
+        color: #72787D;
+        line-height: 19px;
+        margin-left: 22px;
+        text-decoration: none;
+        &-active {
+            color: #036FC7;
+        }
+    }
+
+    .nav-button {
+        padding: 9px 20px;
+        font-size: 13px;
+        line-height: 16px;
+        width: 143px;
+        height: 34px;
+        margin-left: 20px;
+        color: #FFFFFF;
+    }
+}
+

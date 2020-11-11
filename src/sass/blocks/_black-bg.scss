@@ -1,0 +1,73 @@
+.black-bg {
+    width: 1440px;
+    background: #212B31;
+    margin: 0 auto;
+    margin-top: 136px;
+    padding: 153px 0 110px 0;
+    &--header {
+        display: flex;
+        margin-left: 178px;
+    }
+    &--title {
+        color: #FFFFFF;
+        text-align: left;
+    }
+    .nav-list {
+        margin-top: 50px;
+        width: 589px;
+        margin-right: 53px;
+        padding-left: 32px;
+        li {
+            list-style: none;
+            div {
+                margin-top: 24px;
+            }
+            .subtitle {
+                font-size: 18px;
+                line-height: 24px;
+                color: #FFFFFF;
+                position: relative;
+                &--dot::before {
+                    position: absolute;
+                    content: '';
+                    width: 8px;
+                    height: 8px;
+                    background: #FFFFFF;
+                    border-radius: 8px;
+                    top: 7px;
+                    left: -32px;
+                }
+            }
+            .descr {
+                font-size: 16px;
+                line-height: 24px;
+                color: rgba(255, 255, 255, 0.75);
+                margin-top: 10px;
+            }
+        }
+    }
+    &--button {
+        margin-top: 50px;
+        width: 331px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .bg--button {
+        background: #FFFFFF;
+        font-size: 17px;
+    }
+    .bg--btn {
+        background: #212B31;
+        border: 1px solid #DADEDF;
+        color: #FFFFFF;
+    }
+    &--info {
+        margin-top: 125px;
+    }
+    &--title18 {
+        color: #FFFFFF;
+    }
+    &--item-descr {
+        color: rgba(255, 255, 255, 0.75);
+    }
+}
